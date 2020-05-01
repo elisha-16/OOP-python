@@ -1,0 +1,9 @@
+class mobile:
+    def __init__(self,brand,price):
+        self.brand=brand
+        self.price=price
+
+m1=mobile('Redmi',10000)
+print('1st mobile is from ', m1.brand ,'and it costs ', m1.price )
+m2=mobile('Asus',15000)
+print('2nd mobile is from ', m2.brand ,'and it costs ' ,m2.price )
