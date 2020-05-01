@@ -1,0 +1,14 @@
+class customer:
+    def __init__(self,cust_id,age,wallet_balance):
+        self.cust_id = cust_id
+        self.age = age
+        self.wallet_balance = wallet_balance
+    def update(self,amount):
+        if amount<=1000 and amount>0:
+            self.wallet_balance +=amount
+    def show(self):
+        print('the balance of wallet is now ',self.wallet_balance)
+c1 = customer('Asit',56,60000)
+c2 = customer('Shuvra',50,40000)
+c2.update(900)
+c2.show()
