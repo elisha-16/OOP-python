@@ -1,0 +1,15 @@
+class recipe:
+    def __init__(self,flavour,topping):
+        self.flavour=flavour
+        self.topping=topping
+    def cupcake(self):
+
+        print('the flavour of the cake is {}' .format(self.flavour))
+        print('the topping of the cake is {}' .format(self.topping))
+
+
+
+cupcake1 = recipe('chocolate','chocochips')
+cupcake2 = recipe('red velvet','strawberry')
+cupcake1.cupcake()
+cupcake2.cupcake()
