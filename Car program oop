@@ -1,0 +1,16 @@
+class car:
+    def __init__(self,name,color,speed):
+        self.name=name
+        self.color=color
+        self.speed=speed
+    def show(self):
+        print('the car name is {}'.format(self.name))
+        print('the car color is {}'.format(self.color))
+        print('the car speed is {}'.format(self.speed))
+
+c1= car('BMW','red',150)
+c2= car('Ferarri','white',170)
+c3= car('Lamborghini','black',160)
+c1.show()
+c2.show()
+c3.show()
