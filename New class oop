@@ -1,0 +1,7 @@
+class ClassA:
+    def __init__(self,val1):
+        self.value=val1
+        print('always running while creating an object', self.value)
+obj1 = ClassA(20)
+obj2 = ClassA(70)
+
